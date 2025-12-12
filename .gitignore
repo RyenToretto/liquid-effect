@@ -16,7 +16,10 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+.history
+.figma
 .DS_Store
+.output
 *.suo
 *.ntvs*
 *.njsproj
@@ -25,3 +28,4 @@ dist-ssr
 
 # Build
 .vite
+

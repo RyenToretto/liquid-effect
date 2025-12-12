@@ -1,0 +1,25 @@
+{
+  "name": "liquid-effect",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host --port 9886",
+    "dev": "vite --port 9886",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit",
+    "preview": "vite preview --port 9886"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.80.0",
+    "sass-embedded": "^1.80.0",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vue-tsc": "^2.0.6"
+  }
+}
